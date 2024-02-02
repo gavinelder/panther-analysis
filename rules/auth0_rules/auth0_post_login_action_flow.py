@@ -49,20 +49,20 @@ def title(event):
     if actions_added_list:
         return (
             f"Auth0 User [{user}] added action(s) [{actions_added_list}] to a post-login action "
-            f"flow for your organization’s tenant [{p_source_label}]."
+            f"flow for your organization's tenant [{p_source_label}]."
         )
 
     if actions_remaining_list:
         return (
             f"Auth0 User [{user}] removed action(s) "
-            f"to a post-login action flow for your organization’s tenant [{p_source_label}], "
+            f"to a post-login action flow for your organization's tenant [{p_source_label}], "
             f"remaining actions include [{actions_remaining_list}]."
         )
 
     # no actions remain in the flow
     return (
         f"Auth0 User [{user}] removed all actions "
-        f"from a post-login action flow for your organization’s tenant [{p_source_label}]."
+        f"from a post-login action flow for your organization's tenant [{p_source_label}]."
     )
 
 

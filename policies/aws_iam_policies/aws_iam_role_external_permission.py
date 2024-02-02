@@ -104,7 +104,7 @@ def policy(resource):
                 # CONFIGURATION REQUIRED
                 # to mock a Managed Policy
                 #   - create mock policy, above
-                #   - add '“IsUnitTest": true,' to test resource in .yml
+                #   - add '"IsUnitTest": true,' to test resource in .yml
                 #   - add an additional 'key: value' pair and 'if/elif' block for each
                 #     mocked case to .yml
                 # Note: all Managed Policies in the test resource will be mocked

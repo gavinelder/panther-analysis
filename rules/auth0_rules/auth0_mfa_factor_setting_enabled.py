@@ -25,7 +25,7 @@ def title(event):
     p_source_label = deep_get(event, "p_source_label", default="<NO_P_SOURCE_LABEL_FOUND>")
     return (
         f"Auth0 User [{user}] enabled mfa factor settings for [{path}] "
-        f"in your organization’s tenant [{p_source_label}]."
+        f"in your organization's tenant [{p_source_label}]."
     )
 
 

@@ -30,7 +30,7 @@ def title(event):
     p_source_label = deep_get(event, "p_source_label", default="<NO_P_SOURCE_LABEL_FOUND>")
     return (
         f"Auth0 User [{user}] disabled mfa risk assessment settings for your "
-        f"organization’s tenant [{p_source_label}]."
+        f"organization's tenant [{p_source_label}]."
     )
 
 

@@ -13,7 +13,7 @@ Description: >
     New Behaviors Observed while Accessing Okta Admin Console.
     A user attempted to access the Okta Admin Console from a new device with a new IP.
 Runbook: >
-    Configure Authentication Policies (Application Sign-on Policies) for access to privileged applications, including the Admin Console, to require re-authentication “at every sign-in”.
+    Configure Authentication Policies (Application Sign-on Policies) for access to privileged applications, including the Admin Console, to require re-authentication "at every sign-in".
     Turn on and test New Device and Suspicious Activity end-user notifications.
 Reference: >
     https://sec.okta.com/articles/2023/08/cross-tenant-impersonation-prevention-and-detection

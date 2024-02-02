@@ -24,7 +24,7 @@ def title(event):
     target_id = deep_get(event, "event", "target", "id", default="<NO_TARGET_ID_FOUND>")
     return (
         f"Tailscale user [{user}] disabled Magic DNS for "
-        f"[{target_id}] in your organization’s tenant."
+        f"[{target_id}] in your organization's tenant."
     )
 
 

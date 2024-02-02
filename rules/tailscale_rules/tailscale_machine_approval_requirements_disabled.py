@@ -23,7 +23,7 @@ def title(event):
     user = deep_get(event, "event", "actor", "loginName", default="<NO_USER_FOUND>")
     return (
         f"Tailscale user [{user}] disabled device approval requirements "
-        f"for new devices accessing your organization’s network."
+        f"for new devices accessing your organization's network."
     )
 
 

@@ -10,7 +10,7 @@ Tags:
   - Data Security
   - Data Exfiltration
 Severity: Medium
-Description: A Notion User exported audit logs for your organization’s workspace.
+Description: A Notion User exported audit logs for your organization's workspace.
 DedupPeriodMinutes: 60
 Threshold: 1
 Runbook: Possible Data Exfiltration. Follow up with the Notion User to determine if this was done for a valid business reason.
